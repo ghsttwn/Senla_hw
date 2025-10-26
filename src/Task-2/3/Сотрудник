@@ -1,0 +1,56 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam class {
+    BackgroundColor White
+    BorderColor Black
+    ArrowColor #666666
+    FontSize 13
+}
+
+abstract class Person {
+    + int id
+    + string firstName
+    + string lastName
+    + Date dateOfBirth
+    + string email
+    --
+    + getFullName(): string
+    + getAge(): int
+}
+
+class Employee {
+    + string employeeId
+    + string position
+    + Date hireDate
+    + float salary
+    + bool isActive
+    --
+    + promote(string newPosition): void
+    + calculateTenure(): int
+    + terminate(): void
+}
+
+class Department {
+    + string deptId
+    + string name
+    + string managerId
+    --
+    + addEmployee(Employee e): void
+    + removeEmployee(string empId): void
+}
+
+class EmploymentRecord {
+    + Date startDate
+    + Date endDate
+    + string position
+    + string departmentName
+    + string reasonForLeaving
+    --
+    + isActive(): bool
+    + getDuration(): int
+}
+
+Employee --|> Person
+Employee "1" *-- "0..*" EmploymentRecord : has >
+Employee "1" --> "1" Department : works in >
+@enduml
