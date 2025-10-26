@@ -1,3 +1,5 @@
+package T3;
+
 import java.util.Random;
 
 // Интерфейсы из диаграммы
