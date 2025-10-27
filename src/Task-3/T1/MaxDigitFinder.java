@@ -1,5 +1,3 @@
-package T1;
-
 public class MaxDigitFinder {
     public static void main(String[] args) {
         // Генерация трехзначного числа с использованием указанной конструкции

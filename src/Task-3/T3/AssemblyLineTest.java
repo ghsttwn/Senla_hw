@@ -1,5 +1,3 @@
-package T3;
-
 class AssemblyLineTest {
     public static void main(String[] args) {
         // Создаем шаги сборки

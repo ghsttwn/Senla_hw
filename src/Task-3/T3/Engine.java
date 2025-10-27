@@ -1,4 +1,3 @@
-package T3;
 import java.util.Objects;
 
 public class Engine implements Interfaces.IProductPart {

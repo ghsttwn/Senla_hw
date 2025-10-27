@@ -1,5 +1,3 @@
-package T3;
-
 import java.util.Random;
 
 public class ChassisAssemblyLine implements Interfaces.ILineStep {

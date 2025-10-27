@@ -1,4 +1,3 @@
-package T4;
 // Класс гостя
 import java.util.Objects;
 

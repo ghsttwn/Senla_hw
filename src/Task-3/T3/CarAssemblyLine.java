@@ -1,5 +1,3 @@
-package T3;
-
 public class CarAssemblyLine implements Interfaces.IAssemblyLine {
     private Interfaces.ILineStep bodyStep;
     private Interfaces.ILineStep chassisStep;

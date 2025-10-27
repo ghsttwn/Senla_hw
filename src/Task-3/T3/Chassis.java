@@ -1,5 +1,3 @@
-package T3;
-
 import java.util.Objects;
 
 public class Chassis implements Interfaces.IProductPart {

@@ -1,5 +1,3 @@
-package T3;
-
 public interface Interfaces {
     // Интерфейсы из диаграммы
     interface IProductPart {

@@ -1,5 +1,3 @@
-package T4;
-
 public class HotelTest {
     public static void main(String[] args) {
         HotelAdministrator admin = new HotelAdministrator("Гранд Отель");

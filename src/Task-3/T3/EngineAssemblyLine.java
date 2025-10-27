@@ -1,5 +1,3 @@
-package T3;
-
 import java.util.Random;
 
 public class EngineAssemblyLine implements Interfaces.ILineStep {
