@@ -1,0 +1,11 @@
+package Task_6.T2.exceptions;
+
+public class ValidationException extends HotelManagementException {
+    public ValidationException(String message) {
+        super(message);
+    }
+
+    public ValidationException(String entity, String field, String problem) {
+        super("Ошибка валидации " + entity + ": поле '" + field + "' - " + problem);
+    }
+}
