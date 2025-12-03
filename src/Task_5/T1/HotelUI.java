@@ -18,7 +18,7 @@ public class HotelUI {
     private Scanner scanner;
     private boolean running;
 
-    private HotelUI() {
+    public HotelUI() {
         this.controller = new HotelController("Гранд Отель");
         this.menuFactory = new HotelMenuFactory(this);
         this.navigator = NavigationManager.getInstance();

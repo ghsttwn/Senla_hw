@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 import java.time.LocalDate;
 
-public class HotelUI {
+public class HotelUI extends Task_5.T1.HotelUI {
     private static HotelUI instance;
     private HotelController controller;
     private HotelMenuFactory menuFactory;
@@ -20,6 +20,7 @@ public class HotelUI {
     private boolean running;
 
     private HotelUI() {
+        super();
         this.controller = new HotelController("Гранд Отель");
         this.menuFactory = new HotelMenuFactory(this);
         this.navigator = NavigationManager.getInstance();

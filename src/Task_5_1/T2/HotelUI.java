@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 import java.time.LocalDate;
 
-public class HotelUI {
+public class HotelUI extends Task_5.T2.HotelUI {
     private static HotelUI instance;
     private HotelController controller;
     private HotelMenuFactory menuFactory;
