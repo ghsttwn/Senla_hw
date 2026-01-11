@@ -1,0 +1,11 @@
+package T8.T1.exceptions;
+
+public class RoomNotFoundException extends HotelManagementException {
+    public RoomNotFoundException(String message) {
+        super(message);
+    }
+
+    public RoomNotFoundException(int roomNumber) {
+        super("Номер " + roomNumber + " не найден");
+    }
+}
